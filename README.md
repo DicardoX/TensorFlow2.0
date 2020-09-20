@@ -64,5 +64,18 @@
   conda env list
 ```
 
+--------------
+
+## TensorFlow的使用
+
+&emsp; 每次需要在命令行进入(tensorflow2.0)环境之后，使用：
+
+```
+  python fileName.py
+```
+
+&emsp; 来调用.py文件，在文件内可以调用tensorflow库。
+
+
 
 
