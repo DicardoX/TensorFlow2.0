@@ -12,7 +12,7 @@
   conda create --name tensorflow2.0 python==3.8.5
   source activate tensorflow2.0
 ```
-&运行结果：
+  &emsp;运行结果：
    
 ```
   dicardo@MacBook-Pro ~ % source activate tensorflow2.0
