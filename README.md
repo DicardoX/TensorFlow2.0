@@ -1,8 +1,10 @@
 # Tensorflow2.0
 
-## `conda`指令的使用
+## `conda`指令的使用（每次使用都要操作一次）
 
 - 使用`export PATH=~/anaconda3/bin:$PATH`指令更改环境变量.
+
+---------
 
 ## 命令行安装TensorFlow2.0
 
@@ -44,3 +46,23 @@
 ```
 
 &emsp; 没有报错即安装成功。
+
+------------
+
+## 使用conda管理环境
+
+```
+  // 创建环境
+  conda create --name tensorflow2.0 python==3.8.5       
+  // 激活环境
+  source activate tensorflow2.0                         
+  // 退出环境
+  (tensorflow2.0) dicardo@MacBook-Pro ~ % conda deactivate
+  // 删除环境
+  conda remove –name <env_name> –all
+  // 环境列表
+  conda env list
+```
+
+
+
