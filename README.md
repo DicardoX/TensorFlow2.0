@@ -1,8 +1,10 @@
 # Tensorflow2.0
 
-## 使用`export PATH=~/anaconda3/bin:$PATH`指令更改环境变量，以使用`conda`指令；
+## `conda`指令的使用
 
-## 命令行安装TensorFlow2.0：
+- 使用`export PATH=~/anaconda3/bin:$PATH`指令更改环境变量.
+
+## 命令行安装TensorFlow2.0
 
 - 创建独立环境并激活：
  
